@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>ijsverkoper</title>
+  </head>
+
+  <body>
+    <div id="img-bg"></div>
+    <div class="container-fluid" id="main-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <br><br>
+            <h1 id="title">ijs op reis</h1>
+            <h6>online bestelling</h6>
+            <form action="" method="GET">
+                <label for="smaken"></label><br>
+                <div class="product">
+                <img src="pop2.png" width="50px"><input type="checkbox" name="kers" id="kers"><h6>Kers  </h6><input type="number" name="aantalBollenKers" value="0" min="0" max="3" style="width: 40px"> <br></div>
+                <div class="product">
+                  <img src="pop1.png" width="50px"><input type="checkbox" name="chocoban" id="chocoban"><h6>Chocoban</h6><input type="number" name="aantalBollenChocoban" value="0" min="0" max="3" style="width: 40px"><br></div>
+                  <div class="product">
+                      <img src="pop4.png" width="50px"><input type="checkbox" name="watermeloen" id="watermeloen" ><h6>Watermeloen</h6><input type="number" name="aantalBollenWatermeloen" value="0" min="0" max="3" style="width: 40px"><br><br></div>
+                  <div class="product">
+                  <img src="pop3.png" width="50px"><input type="checkbox" name="kiwi" id="kiwi" ><h6> Kiwi</h6><input type="number" name="aantalBollenMokka" value="0" min="0" max="3" style="width: 40px"><br></div>
+                 
+          <br>
+                  <label for="naam" id="naamLabel"></label>
+                  <input type="text" name="naam" id="naamInput" value="uw naam*" required/>
+                  <button type="button" class="btn" onclick="verstuur()"><h4>bestellen</h4></button>
+                  </form>
+            <div id="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
