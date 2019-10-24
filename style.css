@@ -1,0 +1,155 @@
+
+
+
+#main-bg {
+    width: 380px;
+    height: 700px;
+
+    border: 3px solid #7AC4CD;  
+    overflow: hidden;
+   
+
+    }
+
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h6 {
+    font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 100%;
+/* or 30px */
+text-align: center;
+color:#7AC4CD;
+/*color: rgb(255, 122, 222, 0.6);*/
+}
+
+h1 {
+   /* text-align: center;
+    font-family: Pacifico, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 125.2%;
+    z-index: 10;
+
+    color: #FF5555;*/
+    font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 125.2%;
+/* or 60px */
+
+text-align: center;
+
+color:  #7AC4CD;
+}
+
+#title {
+    top: 20px;
+}
+
+
+
+#circle {
+    position: absolute;
+width: 720px;
+height: 720px;
+left: -55px;
+top: 65px;
+z-index: -5;
+/*background-image: url("icecream1.jpg");
+z-index:-10;*/
+background:rgb(177, 225, 231);
+border-radius: 50%;
+}
+
+.product {
+    position: relative;
+    display:flex;
+    flex-direction: row;
+align-items: center;
+justify-content: space-around;
+width: 360px;
+height: 80px;
+background: #FFFFFF;
+border-radius: 61px 0px 0px 61px;
+margin: 10px;
+z-index: 10;
+}
+
+form {
+    z-index: 10;
+}
+label {
+    text-decoration: underline;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 125.2%;
+z-index: 10;
+/* or 30px */
+
+
+color:rgb(177, 225, 231) ;
+
+}
+
+
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    /*-webkit-appearance: none;*/
+    width: 10px;
+  }
+
+.btn {
+    position: absolute;
+width: 140px;
+height: 50px;
+float: right;
+border-radius: 25px;
+background: #7AC4CD ;
+box-shadow: 4px 4px 35px rgba(121, 121, 121, 0.36);
+color: rgb(255, 255, 255);
+text-align: center;
+z-index: 10;
+margin:5px;
+}
+
+input[type="checkbox"] {
+    display: none;
+
+}
+
+input[type="text"] {
+border-radius: 25px;
+border: 2px solid #7AC4CD;
+padding: 20px; 
+width: 140px;
+height: 50px;  
+float: left;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 125.2%;
+z-index: 15;
+margin:5px;
+/* or 25px */
+
+
+color: #ADADAD;
+}
+
+.alerttext {
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 10;
+}
